@@ -12,6 +12,8 @@ class Home extends Component {
           <Link to="/swipe-left">Swipe Left</Link>
           <Link to="/swipe-right">Swipe Right</Link>
           <Link to="/swipe-down">Swipe Down</Link>
+          <Link to="/fade-in">Fade In</Link>
+          <Link to="/scale-in">Scale In</Link>
         </section>
       </div>
     )

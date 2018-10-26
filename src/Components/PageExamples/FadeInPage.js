@@ -3,13 +3,13 @@ import { Link } from 'react-router-dom'
 
 import Page from './Page';
 
-class SwipeDownPage extends Component {
+class SwipeInPage extends Component {
   render() {
     return (
-      <div className="react-transition swipe-down">
-        <Page title="Swipe Down" />
+      <div className="react-transition fade-in">
+        <Page title="Fade In" />
       </div>
     )
   }
 }
-export default SwipeDownPage
+export default SwipeInPage

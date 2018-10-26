@@ -81,3 +81,55 @@
   animation-name: swipeDown;
   animation-duration: 300ms;
 }
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  animation-timing-function: ease-in-out;
+  transform-origin: bottom center;
+  animation-name: fadeIn;
+  animation-duration: 400ms;
+}
+
+
+@keyframes scaleIn {
+  from {
+    transform: translateY(-500px) scale(.01);
+  }
+
+  to {
+    transform:  scale(1);
+  }
+}
+
+.scale-in {
+  animation-timing-function: ease-in-out;
+  transform-origin: bottom center;
+  animation-name: scaleIn;
+  animation-duration: 400ms;
+}
+
+@keyframes dropIn {
+  from {
+    transform: scale(2);
+  }
+
+  to {
+    transform:  scale(1);
+  }
+}
+
+.drop-in {
+  animation-timing-function: ease-in-out;
+  transform-origin: bottom center;
+  animation-name: dropIn;
+  animation-duration: 400ms;
+}

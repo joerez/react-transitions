@@ -8,6 +8,8 @@ import SwipeUpPage from './PageExamples/SwipeUpPage'
 import SwipeLeftPage from './PageExamples/SwipeLeftPage'
 import SwipeRightPage from './PageExamples/SwipeRightPage'
 import SwipeDownPage from './PageExamples/SwipeDownPage'
+import FadeInPage from './PageExamples/FadeInPage'
+import ScaleInPage from './PageExamples/ScaleInPage'
 
 
 class App extends Component {
@@ -20,6 +22,9 @@ class App extends Component {
             <Route exact path="/swipe-left" component={SwipeLeftPage} />
             <Route exact path="/swipe-right" component={SwipeRightPage} />
             <Route exact path="/swipe-down" component={SwipeDownPage} />
+            <Route exact path="/fade-in" component={FadeInPage} />
+            <Route exact path="/scale-in" component={ScaleInPage} />
+
           </div>
         </BrowserRouter>
     );
