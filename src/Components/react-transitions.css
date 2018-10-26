@@ -1,3 +1,8 @@
+.transition-container {
+  perspective: 800px;
+}
+
+
 .react-transition {
   animation-fill-mode: both;
 }
@@ -117,6 +122,42 @@
   animation-duration: 250ms;
 }
 
+@keyframes scaleInRight {
+  from {
+    transform: translateY(-500px) translateX(500px) scale(.01);
+  }
+
+  to {
+    transform:  scale(1);
+  }
+}
+
+.scale-in-right {
+  animation-timing-function: ease-in-out;
+  transform-origin: bottom center;
+  animation-name: scaleInRight;
+  animation-duration: 250ms;
+}
+
+@keyframes scaleInLeft {
+  from {
+    transform: translateY(-500px) translateX(-500px) scale(.01);
+  }
+
+  to {
+    transform:  scale(1);
+  }
+}
+
+.scale-in-left {
+  animation-timing-function: ease-in-out;
+  transform-origin: bottom center;
+  animation-name: scaleInLeft;
+  animation-duration: 250ms;
+}
+
+
+
 @keyframes dropIn {
   from {
     transform: scale(4) translateY(400px);
@@ -168,4 +209,91 @@
   transform-origin: bottom center;
   animation-name: dropInLeft;
   animation-duration: 250ms;
+}
+
+
+@keyframes flipInX {
+  from {
+    transform: rotateX(90deg);
+  }
+
+  70% {
+    transform: rotateX(-10deg);
+  }
+
+  to {
+    transform: rotateX(0deg);
+  }
+}
+
+.flip-in-x {
+  animation-timing-function: linear;
+  animation-name: flipInX;
+  transform-style: preserve-3d;
+  animation-duration: 300ms;
+}
+
+@keyframes flipInXReverse {
+  from {
+    transform: rotateX(-90deg);
+  }
+
+  70% {
+    transform: rotateX(10deg);
+  }
+
+  to {
+    transform: rotateX(0deg);
+  }
+}
+
+.flip-in-x-reverse {
+  animation-timing-function: linear;
+  animation-name: flipInXReverse;
+  transform-style: preserve-3d;
+  animation-duration: 300ms;
+}
+
+
+
+@keyframes flipInY {
+  from {
+    transform:  rotateY(90deg);
+  }
+
+  70% {
+    transform:  rotateY(-10deg);
+  }
+
+  to {
+    transform: rotateY(0deg);
+  }
+}
+
+.flip-in-y {
+  animation-timing-function: linear;
+  animation-name: flipInY;
+  animation-duration: 300ms;
+  transform-style: preserve-3d;
+}
+
+@keyframes flipInYReverse {
+  from {
+    transform:  rotateY(-90deg);
+  }
+
+  70% {
+    transform:  rotateY(10deg);
+  }
+
+  to {
+    transform: rotateY(0deg);
+  }
+}
+
+.flip-in-y-reverse {
+  animation-timing-function: linear;
+  animation-name: flipInYReverse;
+  animation-duration: 300ms;
+  transform-style: preserve-3d;
 }
