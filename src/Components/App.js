@@ -10,6 +10,9 @@ import SwipeRightPage from './PageExamples/SwipeRightPage'
 import SwipeDownPage from './PageExamples/SwipeDownPage'
 import FadeInPage from './PageExamples/FadeInPage'
 import ScaleInPage from './PageExamples/ScaleInPage'
+import DropInPage from './PageExamples/DropInPage'
+import DropInRightPage from './PageExamples/DropInRightPage'
+import DropInLeftPage from './PageExamples/DropInLeftPage'
 
 
 class App extends Component {
@@ -24,6 +27,9 @@ class App extends Component {
             <Route exact path="/swipe-down" component={SwipeDownPage} />
             <Route exact path="/fade-in" component={FadeInPage} />
             <Route exact path="/scale-in" component={ScaleInPage} />
+            <Route exact path="/drop-in" component={DropInPage} />
+            <Route exact path="/drop-in-right" component={DropInRightPage} />
+            <Route exact path="/drop-in-left" component={DropInLeftPage} />
 
           </div>
         </BrowserRouter>

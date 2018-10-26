@@ -96,7 +96,7 @@
   animation-timing-function: ease-in-out;
   transform-origin: bottom center;
   animation-name: fadeIn;
-  animation-duration: 400ms;
+  animation-duration: 250ms;
 }
 
 
@@ -114,12 +114,12 @@
   animation-timing-function: ease-in-out;
   transform-origin: bottom center;
   animation-name: scaleIn;
-  animation-duration: 400ms;
+  animation-duration: 250ms;
 }
 
 @keyframes dropIn {
   from {
-    transform: scale(2);
+    transform: scale(4) translateY(400px);
   }
 
   to {
@@ -131,5 +131,41 @@
   animation-timing-function: ease-in-out;
   transform-origin: bottom center;
   animation-name: dropIn;
-  animation-duration: 400ms;
+  animation-duration: 250ms;
+}
+
+
+@keyframes dropInRight {
+  from {
+    transform: scale(4) translateY(400px) translateX(400px);
+  }
+
+  to {
+    transform:  scale(1);
+  }
+}
+
+.drop-in-right {
+  animation-timing-function: ease-in-out;
+  transform-origin: bottom center;
+  animation-name: dropInRight;
+  animation-duration: 250ms;
+}
+
+
+@keyframes dropInLeft {
+  from {
+    transform: scale(4) translateY(400px) translateX(-400px);
+  }
+
+  to {
+    transform:  scale(1);
+  }
+}
+
+.drop-in-left {
+  animation-timing-function: ease-in-out;
+  transform-origin: bottom center;
+  animation-name: dropInLeft;
+  animation-duration: 250ms;
 }

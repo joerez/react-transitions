@@ -14,6 +14,10 @@ class Home extends Component {
           <Link to="/swipe-down">Swipe Down</Link>
           <Link to="/fade-in">Fade In</Link>
           <Link to="/scale-in">Scale In</Link>
+          <Link to="/drop-in">Drop In</Link>
+          <Link to="/drop-in-right">Drop In Right</Link>
+          <Link to="/drop-in-left">Drop In Left</Link>
+
         </section>
       </div>
     )
