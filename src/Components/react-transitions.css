@@ -1,0 +1,83 @@
+.react-transition {
+  animation-fill-mode: both;
+}
+
+@keyframes swipeUp {
+  from {
+    transform: translate3d(0,100vh,0);
+    opacity: 0;
+  }
+
+  to {
+    transform: translate3d(0,0vh,0);
+    opacity: 1;
+  }
+}
+
+.swipe-up {
+  animation-timing-function: linear;
+  transform-origin: bottom center;
+  animation-name: swipeUp;
+  animation-duration: 250ms;
+}
+
+
+@keyframes swipeLeft {
+  from {
+    transform: translate3d(-1000px,0,0);
+    opacity: 0;
+  }
+
+  to {
+    transform: translate3d(0,0,0);
+    opacity: 1;
+  }
+}
+
+.swipe-left {
+  animation-timing-function: ease-in-out;
+  transform-origin: bottom center;
+  animation-name: swipeLeft;
+  animation-duration: 300ms;
+}
+
+
+@keyframes swipeRight {
+  from {
+    transform: translate3d(1000px,0,0);
+    opacity: 0;
+  }
+
+  to {
+    transform: translate3d(0,0,0);
+    opacity: 1;
+  }
+}
+
+.swipe-right {
+  animation-timing-function: ease-in-out;
+  transform-origin: bottom center;
+  animation-name: swipeRight;
+  animation-duration: 300ms;
+}
+
+
+
+@keyframes swipeDown {
+  from {
+    transform: translate3d(0,-100vh,0);
+    opacity: 0;
+  }
+
+  to {
+    transform: translate3d(0,0,0);
+    opacity: 1;
+  }
+}
+
+.swipe-down {
+  animation-timing-function: ease-in-out;
+  transform-origin: bottom center;
+  animation-name: swipeDown;
+  animation-duration: 300ms;
+}
