@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 class Home extends Component {
   render() {
     return (
-      <div className="home react-transition flip-in-y">
+      <div className="home react-transition swipe-left">
         <h1>Home</h1>
         <section className="transition-links">
 
@@ -32,6 +32,8 @@ class Home extends Component {
 
           <Link to="/rotate-in">Rotate In</Link>
           <Link to="/rotate-in-reverse">Rotate In Reverse</Link>
+
+          <Link to="/woah">Woah</Link>
 
         </section>
       </div>

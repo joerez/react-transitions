@@ -3,6 +3,10 @@ import { BrowserRouter, Route } from 'react-router-dom';
 
 import './react-transitions.css';
 
+import Nav from './Nav'
+
+import Docs from './Docs/Docs';
+
 import Home from './Home';
 
 import SwipeUpPage from './PageExamples/SwipeUpPage'
@@ -15,7 +19,6 @@ import FadeInPage from './PageExamples/FadeInPage'
 import ScaleInPage from './PageExamples/ScaleInPage'
 import ScaleInLeftPage from './PageExamples/ScaleInLeftPage'
 import ScaleInRightPage from './PageExamples/ScaleInRightPage'
-
 
 import DropInPage from './PageExamples/DropInPage'
 import DropInRightPage from './PageExamples/DropInRightPage'
@@ -30,13 +33,18 @@ import FlipInYReversePage from './PageExamples/FlipInYReversePage'
 import RotateInPage from './PageExamples/RotateInPage'
 import RotateInReversePage from './PageExamples/RotateInReversePage'
 
+import WoahPage from './PageExamples/WoahPage'
+
 
 class App extends Component {
   render() {
     return (
         <BrowserRouter>
           <div class="transition-container">
+            <Nav />
             <Route exact path="/" component={Home} />
+
+            <Route exact path="/documentation" component={Docs} />
 
             <Route exact path="/swipe-up" component={SwipeUpPage} />
             <Route exact path="/swipe-left" component={SwipeLeftPage} />
@@ -62,6 +70,7 @@ class App extends Component {
             <Route exact path="/rotate-in" component={RotateInPage} />
             <Route exact path="/rotate-in-reverse" component={RotateInReversePage} />
 
+            <Route exact path="/woah" component={WoahPage} />
 
           </div>
         </BrowserRouter>

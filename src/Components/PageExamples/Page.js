@@ -6,7 +6,7 @@ import './styles.css';
 class Page extends Component {
   render() {
     return (
-      <div style={{background: 'blue'}} className="page">
+      <div  className="page">
         <h1>{this.props.title}</h1>
         <Link to="/">Back To Home</Link>
       </div>

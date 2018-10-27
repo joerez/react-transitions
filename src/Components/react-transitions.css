@@ -342,3 +342,25 @@
   animation-duration: 300ms;
   transform-style: preserve-3d;
 }
+
+@keyframes woah {
+  from {
+    transform: scale(.001) translateX(200px);
+  }
+
+  25% {
+    transform: scale(.25) rotateY(180deg) translateX(100px) translateY(100px);
+  }
+
+  50% {
+    transform: scale(.5) rotateY(0deg) rotateX(180deg) translateX(-100px) translateY(600px);
+  }
+
+}
+
+.woah {
+  animation-timing-function: linear;
+  animation-name: woah;
+  animation-duration: 1s;
+  transform-style: preserve-3d;
+}

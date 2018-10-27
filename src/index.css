@@ -14,6 +14,21 @@ body {
   /*background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%), linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%), linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);*/
 }
 
+nav {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background: #2c3e50;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
 .transition-links {
   width: 100%;
   display: flex;
@@ -37,4 +52,16 @@ body {
   text-decoration: none;
   margin: 1rem;
   font-size: 1.3rem;
+}
+
+.docs {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  width: 100%;
+  background: #ecf0f1;
 }
