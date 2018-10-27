@@ -1,6 +1,7 @@
 {
   "name": "react-transitions",
   "version": "0.1.0",
+  "homepage" : "http://www.joerezendes.com/projects/react-transitions/",
   "private": true,
   "dependencies": {
     "markdown-it": "^8.4.2",
