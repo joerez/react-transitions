@@ -3,13 +3,13 @@ import { Link } from 'react-router-dom'
 
 import Page from './Page';
 
-class ScaleInPage extends Component {
+class RotateInPage extends Component {
   render() {
     return (
-      <div className="react-transition scale-in">
-        <Page title="Scale In"  />
+      <div className="react-transition rotate-in">
+        <Page title="Rotate In" />
       </div>
     )
   }
 }
-export default ScaleInPage
+export default RotateInPage

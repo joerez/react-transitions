@@ -297,3 +297,48 @@
   animation-duration: 300ms;
   transform-style: preserve-3d;
 }
+
+
+@keyframes rotateIn {
+  from {
+    transform: scale(.1)  rotate(180deg);
+  }
+
+  70% {
+    /*transform:  rotate(10deg);*/
+  }
+
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+.rotate-in {
+  animation-timing-function: ease-in-out;
+  animation-name: rotateIn;
+  animation-duration: 300ms;
+  transform-style: preserve-3d;
+}
+
+
+
+@keyframes rotateInReverse {
+  from {
+    transform: scale(.1)  rotate(-180deg);
+  }
+
+  70% {
+    /*transform:  rotate(10deg);*/
+  }
+
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+.rotate-in-reverse {
+  animation-timing-function: ease-in-out;
+  animation-name: rotateInReverse;
+  animation-duration: 300ms;
+  transform-style: preserve-3d;
+}

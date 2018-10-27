@@ -26,9 +26,12 @@ class Home extends Component {
 
           <Link to="/flip-in-x">Flip In X</Link>
           <Link to="/flip-in-x-reverse">Flip In X Reverse</Link>
-          
+
           <Link to="/flip-in-y">Flip In Y</Link>
           <Link to="/flip-in-y-reverse">Flip In Y Reverse</Link>
+
+          <Link to="/rotate-in">Rotate In</Link>
+          <Link to="/rotate-in-reverse">Rotate In Reverse</Link>
 
         </section>
       </div>

@@ -27,6 +27,9 @@ import FlipInXReversePage from './PageExamples/FlipInXReversePage'
 import FlipInYPage from './PageExamples/FlipInYPage'
 import FlipInYReversePage from './PageExamples/FlipInYReversePage'
 
+import RotateInPage from './PageExamples/RotateInPage'
+import RotateInReversePage from './PageExamples/RotateInReversePage'
+
 
 class App extends Component {
   render() {
@@ -55,6 +58,9 @@ class App extends Component {
 
             <Route exact path="/flip-in-y" component={FlipInYPage} />
             <Route exact path="/flip-in-y-reverse" component={FlipInYReversePage} />
+
+            <Route exact path="/rotate-in" component={RotateInPage} />
+            <Route exact path="/rotate-in-reverse" component={RotateInReversePage} />
 
 
           </div>

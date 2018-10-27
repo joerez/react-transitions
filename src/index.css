@@ -15,8 +15,11 @@ body {
 }
 
 .transition-links {
+  width: 100%;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .home {
@@ -32,6 +35,6 @@ body {
 .home a {
   color: white;
   text-decoration: none;
-  margin-bottom: 1rem;
+  margin: 1rem;
   font-size: 1.3rem;
 }

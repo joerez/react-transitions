@@ -7,7 +7,7 @@ class DropInPage extends Component {
   render() {
     return (
       <div className="react-transition drop-in">
-        <Page title="Drop In" />
+        <Page title="Drop In" background={{background: 'blue'}} />
       </div>
     )
   }
