@@ -145,3 +145,21 @@ nav a {
 .bottom-text a {
   color: white;
 }
+
+
+@media (max-width:900px) and (min-width:300px) {
+
+  .front h1 {
+    margin-top: 1rem;
+    font-size: 3rem;
+  }
+
+  .front p {
+    text-align: center;
+  }
+
+  .page h1 {
+    font-size: 3rem;
+  }
+
+}
