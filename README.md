@@ -1,5 +1,8 @@
-# React transitions
+![React Transitions](https://image.ibb.co/gMW8qq/React-Transitions.gif "React Transitions")
+
 Live Demo: http://www.joerezendes.com/projects/react-transitions
+
+# React transitions
 
 Many single page web applications don't use transitions for their different routes.
 
