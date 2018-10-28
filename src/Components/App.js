@@ -5,6 +5,8 @@ import './react-transitions.css';
 
 import Nav from './Nav'
 
+import Front from './Front'
+
 import Docs from './Docs/Docs';
 
 import Home from './Home';
@@ -40,8 +42,11 @@ class App extends Component {
   render() {
     return (
         <BrowserRouter>
-          <div class="transition-container">
+          <div className="transition-container">
             <Nav />
+
+            <Route exact path="/projects/react-transitions/" component={Front} />
+
             <Route exact path="/" component={Home} />
 
             <Route exact path="/documentation" component={Docs} />

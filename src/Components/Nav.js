@@ -5,8 +5,9 @@ export default class Nav extends Component {
   render() {
     return (
       <nav>
+        <Link to="/projects/react-transitions">Home</Link>
         <Link to="/">Demo</Link>
-        <Link to="documentation">Docs</Link>
+        <Link className="right" to="/documentation">Docs</Link>
       </nav>
     )
   }
