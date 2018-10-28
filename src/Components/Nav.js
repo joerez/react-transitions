@@ -6,8 +6,8 @@ export default class Nav extends Component {
     return (
       <nav>
         <Link to="/projects/react-transitions">Home</Link>
-        <Link to="/">Demo</Link>
-        <Link className="right" to="/documentation">Docs</Link>
+        <Link to="/projects/react-transitions/demo">Demo</Link>
+        <Link className="right" to="/projects/react-transitions/documentation">Docs</Link>
       </nav>
     )
   }

@@ -13,7 +13,7 @@ class Page extends Component {
     return (
       <div  className="page">
         <h1>{this.props.title}</h1>
-        <Link to="/">Back To Home</Link>
+        <Link to="/projects/react-transitions/demo">Back To Demo</Link>
 
         <SyntaxHighlighter language='javascript' style={dark}>
           {this.props.docs}

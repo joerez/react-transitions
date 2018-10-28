@@ -47,35 +47,35 @@ class App extends Component {
 
             <Route exact path="/projects/react-transitions/" component={Front} />
 
-            <Route exact path="/" component={Home} />
+            <Route exact path="/projects/react-transitions/demo" component={Home} />
 
-            <Route exact path="/documentation" component={Docs} />
+            <Route exact path="/projects/react-transitions/documentation" component={Docs} />
 
-            <Route exact path="/swipe-up" component={SwipeUpPage} />
-            <Route exact path="/swipe-left" component={SwipeLeftPage} />
-            <Route exact path="/swipe-right" component={SwipeRightPage} />
-            <Route exact path="/swipe-down" component={SwipeDownPage} />
+            <Route exact path="/projects/react-transitions/swipe-up" component={SwipeUpPage} />
+            <Route exact path="/projects/react-transitions/swipe-left" component={SwipeLeftPage} />
+            <Route exact path="/projects/react-transitions/swipe-right" component={SwipeRightPage} />
+            <Route exact path="/projects/react-transitions/swipe-down" component={SwipeDownPage} />
 
-            <Route exact path="/fade-in" component={FadeInPage} />
+            <Route exact path="/projects/react-transitions/fade-in" component={FadeInPage} />
 
-            <Route exact path="/scale-in" component={ScaleInPage} />
-            <Route exact path="/scale-in-left" component={ScaleInLeftPage} />
-            <Route exact path="/scale-in-right" component={ScaleInRightPage} />
+            <Route exact path="/projects/react-transitions/scale-in" component={ScaleInPage} />
+            <Route exact path="/projects/react-transitions/scale-in-left" component={ScaleInLeftPage} />
+            <Route exact path="/projects/react-transitions/scale-in-right" component={ScaleInRightPage} />
 
-            <Route exact path="/drop-in" component={DropInPage} />
-            <Route exact path="/drop-in-right" component={DropInRightPage} />
-            <Route exact path="/drop-in-left" component={DropInLeftPage} />
+            <Route exact path="/projects/react-transitions/drop-in" component={DropInPage} />
+            <Route exact path="/projects/react-transitions/drop-in-right" component={DropInRightPage} />
+            <Route exact path="/projects/react-transitions/drop-in-left" component={DropInLeftPage} />
 
-            <Route exact path="/flip-in-x" component={FlipInXPage} />
-            <Route exact path="/flip-in-x-reverse" component={FlipInXReversePage} />
+            <Route exact path="/projects/react-transitions/flip-in-x" component={FlipInXPage} />
+            <Route exact path="/projects/react-transitions/flip-in-x-reverse" component={FlipInXReversePage} />
 
-            <Route exact path="/flip-in-y" component={FlipInYPage} />
-            <Route exact path="/flip-in-y-reverse" component={FlipInYReversePage} />
+            <Route exact path="/projects/react-transitions/flip-in-y" component={FlipInYPage} />
+            <Route exact path="/projects/react-transitions/flip-in-y-reverse" component={FlipInYReversePage} />
 
-            <Route exact path="/rotate-in" component={RotateInPage} />
-            <Route exact path="/rotate-in-reverse" component={RotateInReversePage} />
+            <Route exact path="/projects/react-transitions/rotate-in" component={RotateInPage} />
+            <Route exact path="/projects/react-transitions/rotate-in-reverse" component={RotateInReversePage} />
 
-            <Route exact path="/woah" component={WoahPage} />
+            <Route exact path="/projects/react-transitions/woah" component={WoahPage} />
 
           </div>
         </BrowserRouter>

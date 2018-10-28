@@ -28,9 +28,10 @@ class Docs extends Component {
           <p>All you have to do is add some class names to pages you want to have transitions on.</p>
           <p>The big difference between this and any other animation library, is that these transitions are designed for transitioning full pages. Not single elements.</p>
           <p>This documentation will act as a tutorial on how to use these animations with React Router.</p>
-          <p>The <Link to="/">Demo page</Link> will also show use cases for each transition and should act as a handy guide.</p>
+          <p>The <Link to="/projects/react-transitions/demo">Demo page</Link> will also show use cases for each transition and should act as a handy guide.</p>
 
           <h2>Let's get started!</h2>
+          <p>Download the library <a target="_blank" href="http://www.joerezendes.com/react-transitions.css">here</a></p>
           <p>Inside of our component where we store routes (usually <b>App.js</b>), we first need to import our <b>react-transitions.css</b> file. Then we will add a parent <b>div</b> with the <b>className</b>: <b>transition-container</b></p>
           <p>Our file should look something like this:</p>
 
@@ -88,7 +89,7 @@ export default PageTwo;`
             }
           </SyntaxHighlighter>
 
-          <p>For more classNames, you can use the list below, or you can check out the <Link to="/">DemoPage</Link>.</p>
+          <p>For more classNames, you can use the list below, or you can check out the <Link to="/projects/react-transitions/demo">DemoPage</Link>.</p>
           <h2>All Animation Classes</h2>
           <ul>
             <li>swipe-up</li>
