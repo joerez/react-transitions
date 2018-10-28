@@ -9,7 +9,7 @@ Many single page web applications don't use transitions for their different rout
 React Transitions hopes to change that.
 
 ## How does this work?
-Even though this library was built with React in mind, it actually works with anything, and in the end, it's just a CSS Animation library.
+Even though this library was built with React and react-router in mind, it actually works with anything, and in the end, it's just a CSS Animation library.
 
 This means that you are free to use this with Angular, VanillaJS, really anything.
 
