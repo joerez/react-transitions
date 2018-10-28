@@ -22,7 +22,7 @@ The Demo page will also show use cases for each transition and should act as a h
 
 Download the library here: http://www.joerezendes.com/react-transitions.css
 
-Inside of our component where we store routes (usually App.js), we first need to import our react-transitions.css file. Then we will add a parent div with the className: transition-container
+Inside of our component where we store routes (usually App.js), we first need to import our `react-transitions.css` file. Then we will add a parent `div` with the className: `transition-container`
 
 Our file should look something like this:
 
@@ -55,9 +55,9 @@ export default App;
 Awesome.
 
 ## Moving on...
-Next, we will actually add the transition inside of our PageTwo component. It will only take 2 classes.
+Next, we will actually add the transition inside of our `PageTwo` component. It will only take 2 classes.
 
-First we add in the parent div the className: react-transition.
+First we add in the parent `div` the className: `react-transition`.
 
 The second className we use is the name of the transition we wish to use. All of them are kabob-cased.
 
