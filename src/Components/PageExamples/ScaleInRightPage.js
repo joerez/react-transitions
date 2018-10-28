@@ -7,7 +7,7 @@ class ScaleInRightPage extends Component {
   render() {
     return (
       <div className="react-transition scale-in-right">
-        <Page title="Scale In Right" />
+        <Page title="Scale In Right" docs={`<div className="react-transition scale-in-right"></div>`}/>
       </div>
     )
   }

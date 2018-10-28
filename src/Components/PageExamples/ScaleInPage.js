@@ -7,7 +7,7 @@ class ScaleInPage extends Component {
   render() {
     return (
       <div className="react-transition scale-in">
-        <Page title="Scale In"  />
+        <Page title="Scale In" docs={`<div className="react-transition scale-in"></div>`} />
       </div>
     )
   }

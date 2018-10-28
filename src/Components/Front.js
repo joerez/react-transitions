@@ -21,6 +21,10 @@ class Front extends Component {
 
         </section>
 
+        <p className="bottom-text">
+        Visit <a target="_blank" href="http://www.joerezendes.com">joerezendes.com</a> for more.
+        <br /><br />
+        Support this project by starring the Github repo.</p>
       </div>
     )
   }

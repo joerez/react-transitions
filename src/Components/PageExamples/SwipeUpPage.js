@@ -7,7 +7,7 @@ class SwipeUpPage extends Component {
   render() {
     return (
       <div className="react-transition swipe-up">
-        <Page title="Swipe Up" />
+        <Page title="Swipe Up" docs={`<div className="react-transition swipe-up"></div>`}/>
       </div>
     )
   }

@@ -20,15 +20,15 @@ class Docs extends Component {
       <div className="docs react-transition flip-in-y-reverse">
         <article className="docs-con">
           <h1>React Transitions</h1>
-          <p>Many single page web applications don't use transitions on their different routes.</p>
+          <p>Many single page web applications don't use transitions for their different routes.</p>
           <p>React Transitions hopes to change that.</p>
           <h2>How does this work?</h2>
           <p>Even though this library was built with React in mind, it actually works with anything, and in the end, it's just a CSS Animation library.</p>
           <p>This means that you are free to use this with Angular, VanillaJS, really anything. </p>
-          <p>All you have to do is add some class names to pages you want to transition to.</p>
+          <p>All you have to do is add some class names to pages you want to have transitions on.</p>
           <p>The big difference between this and any other animation library, is that these transitions are designed for transitioning full pages. Not single elements.</p>
-          <p>This documentation will act as a tutorial on how to use these animations with react router.</p>
-          <p>The Demo page will also show use cases for each transition and should act as a handy guide.</p>
+          <p>This documentation will act as a tutorial on how to use these animations with React Router.</p>
+          <p>The <Link to="/">Demo page</Link> will also show use cases for each transition and should act as a handy guide.</p>
 
           <h2>Let's get started!</h2>
           <p>Inside of our component where we store routes (usually <b>App.js</b>), we first need to import our <b>react-transitions.css</b> file. Then we will add a parent <b>div</b> with the <b>className</b>: <b>transition-container</b></p>
@@ -130,6 +130,7 @@ export default PageTwo;`
           <p>It helps to set the background property on your <b>body</b> element to the same color that most of your components will have. If you're unsure, just keep it white or black.</p>
           <h2>That's all</h2>
           <p>Really. That's it. It's as simple as any other css animation library. If you wish to support this project, please star the repo.</p>
+          <p>Feel free to check out my website for more cool stuff! <a href="http://www.joerezendes.com">joerezendes.com</a></p>
           <br />
         </article>
       </div>

@@ -7,7 +7,7 @@ class FlipInXPage extends Component {
   render() {
     return (
       <div className="react-transition flip-in-x">
-        <Page title="Flip In X" />
+        <Page title="Flip In X" docs={`<div className="react-transition flip-in-x"></div>`}/>
       </div>
     )
   }

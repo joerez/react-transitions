@@ -7,7 +7,7 @@ class SwipeInPage extends Component {
   render() {
     return (
       <div className="react-transition fade-in">
-        <Page title="Fade In" />
+        <Page title="Fade In" docs={`<div className="react-transition fade-in"></div>`}/>
       </div>
     )
   }

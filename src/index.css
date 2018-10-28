@@ -134,3 +134,14 @@ nav a {
 .git span {
   margin-right: 1rem !important;
 }
+
+.bottom-text {
+  position: absolute;
+  bottom: 5rem;
+  text-align: center;
+  width: 100%;
+}
+
+.bottom-text a {
+  color: white;
+}

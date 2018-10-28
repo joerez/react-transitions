@@ -7,7 +7,7 @@ class DropInLeftPage extends Component {
   render() {
     return (
       <div className="react-transition drop-in-left">
-        <Page title="Drop In Left" />
+        <Page title="Drop In Left" docs={`<div className="react-transition drop-in-left"></div>`}/>
       </div>
     )
   }

@@ -7,7 +7,7 @@ class SwipeRightPage extends Component {
   render() {
     return (
       <div className="react-transition swipe-right">
-        <Page title="Swipe Right" />
+        <Page title="Swipe Right" docs={`<div className="react-transition swipe-right"></div>`}/>
       </div>
     )
   }

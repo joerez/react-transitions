@@ -7,7 +7,7 @@ class RotateInReversePage extends Component {
   render() {
     return (
       <div className="react-transition rotate-in-reverse">
-        <Page title="Rotate In Reverse" />
+        <Page title="Rotate In Reverse" docs={`<div className="react-transition rotate-in-reverse"></div>`}/>
       </div>
     )
   }

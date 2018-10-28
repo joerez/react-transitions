@@ -7,7 +7,7 @@ class RotateInPage extends Component {
   render() {
     return (
       <div className="react-transition rotate-in">
-        <Page title="Rotate In" />
+        <Page title="Rotate In" docs={`<div className="react-transition rotate-in"></div>`}/>
       </div>
     )
   }
