@@ -103,6 +103,9 @@ For more classNames, you can use the list below, or you can check out the DemoPa
 - rotate-in
 - rotate-in-reverse
 - woah
+- blur-in
+- white-wash-in
+- black-wash-in
 
 ## Custimization
 

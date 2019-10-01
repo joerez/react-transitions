@@ -107,6 +107,9 @@ export default PageTwo;`
             <li>rotate-in</li>
             <li>rotate-in-reverse</li>
             <li>woah</li>
+            <li>blur-in</li>
+            <li>white-wash-in</li>
+            <li>black-wash-in</li>
           </ul>
 
           <h2>Custimization</h2>
