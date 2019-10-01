@@ -39,6 +39,7 @@ import WoahPage from './PageExamples/WoahPage'
 
 import BlurInPage from './PageExamples/BlurInPage'
 import WhiteWashInPage from './PageExamples/WhiteWashInPage'
+import BlackWashInPage from './PageExamples/BlackWashInPage'
 
 
 class App extends Component {
@@ -81,6 +82,7 @@ class App extends Component {
             <Route exact path="/projects/react-transitions/woah" component={WoahPage} />
             <Route exact path="/projects/react-transitions/blur-in" component={BlurInPage} />   
             <Route exact path="/projects/react-transitions/white-wash-in" component={WhiteWashInPage} />
+            <Route exact path="/projects/react-transitions/black-wash-in" component={BlackWashInPage} />
 
 
 

@@ -405,3 +405,23 @@
   animation-duration: 500ms;
 }
 
+@keyframes blackWashIn {
+  from {
+    filter: brightness(0%);
+    opacity: 1;
+    background: black;
+  }
+
+  to {
+    filter: brightness(100%);
+    opacity: 1;
+    background: rgba(0,0,0,0);
+  }
+}
+
+.black-wash-in {
+  animation-timing-function: linear;
+  transform-origin: center;
+  animation-name: blackWashIn;
+  animation-duration: 500ms;
+}
