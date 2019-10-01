@@ -4,9 +4,6 @@ import { Link } from 'react-router-dom';
 import SyntaxHighlighter from 'react-syntax-highlighter/prism';
 import { dark } from 'react-syntax-highlighter/styles/prism';
 
-
-
-
 // Import the Markdown component
 import Markdown from 'react-markdown';
 
