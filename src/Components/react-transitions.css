@@ -364,3 +364,22 @@
   animation-duration: 1s;
   transform-style: preserve-3d;
 }
+
+@keyframes blurIn {
+  from {
+    filter: blur(1.5rem);
+    opacity: 1;
+  }
+
+  to {
+    filter: blur(0);
+    opacity: 1;
+  }
+}
+
+.blur-in {
+  animation-timing-function: ease-in-out;
+  transform-origin: center;
+  animation-name: blurIn;
+  animation-duration: 300ms;
+}
