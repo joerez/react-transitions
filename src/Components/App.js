@@ -38,6 +38,7 @@ import RotateInReversePage from './PageExamples/RotateInReversePage'
 import WoahPage from './PageExamples/WoahPage'
 
 import BlurInPage from './PageExamples/BlurInPage'
+import WhiteWashInPage from './PageExamples/WhiteWashInPage'
 
 
 class App extends Component {
@@ -78,7 +79,9 @@ class App extends Component {
             <Route exact path="/projects/react-transitions/rotate-in-reverse" component={RotateInReversePage} />
 
             <Route exact path="/projects/react-transitions/woah" component={WoahPage} />
-            <Route exact path="/projects/react-transitions/blur-in" component={BlurInPage} />
+            <Route exact path="/projects/react-transitions/blur-in" component={BlurInPage} />   
+            <Route exact path="/projects/react-transitions/white-wash-in" component={WhiteWashInPage} />
+
 
 
           </div>

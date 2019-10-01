@@ -36,6 +36,7 @@ class Home extends Component {
           <Link to="/projects/react-transitions/woah">Woah</Link>
 
           <Link to="/projects/react-transitions/blur-in">Blur In</Link>
+          <Link to="/projects/react-transitions/white-wash-in">White Wash In</Link>
 
 
         </section>
