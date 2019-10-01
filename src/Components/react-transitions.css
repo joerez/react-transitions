@@ -383,3 +383,25 @@
   animation-name: blurIn;
   animation-duration: 300ms;
 }
+
+@keyframes whiteWashIn {
+  from {
+    filter: brightness(500%);
+    opacity: 1;
+    background: white;
+  }
+
+  to {
+    filter: brightness(100%);
+    opacity: 1;
+    background: rgba(0,0,0,0);
+  }
+}
+
+.white-wash-in {
+  animation-timing-function: linear;
+  transform-origin: center;
+  animation-name: whiteWashIn;
+  animation-duration: 500ms;
+}
+
